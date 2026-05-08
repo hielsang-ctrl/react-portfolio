@@ -1,18 +1,78 @@
-# React + Vite
+# Personal Project Showcase App called Dream Agency
+ 
+A simple React app for adding, searching, and managing personal projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built with:
+- React
+- Tailwind CSS
+- Vite
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Features
 
-## React Compiler
+- Add new projects
+- View project list
+- Search projects
+- Delete projects
+- Responsive design for mobile and desktop
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+# Project Structure
 
-## Expanding the ESLint configuration
+```txt
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── ProjectForm.jsx
+│   └── ProjectList.jsx
+│
+├── hooks/
+│   └── useProjects.js
+│
+├── tests/
+│   ├── ProjectForm.test.jsx
+│   └── ProjectList.test.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# How the App Works
+
+1. User enters project title and description
+2. Project is added to the list
+3. User can search projects
+4. User can delete projects
+
+---
+
+# Future Improvements
+
+- Edit projects
+- Save projects in local storage
+- Add dark mode
+- Add project categories
+- Connect to a database
+- Add user authentication
+
+---
+
+# Responsive Design
+
+The app works on:
+- Mobile phones
+- Tablets
+- Laptops
+- Desktop screens
+
+---
+
+# Author
+
+Created by: Hiel Sang
